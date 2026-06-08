@@ -1,4 +1,4 @@
-# Tier-2 Archipelago goal messages (merged and formatted)
+#Game-specific messages sent when players complete the goal in their seed
 
 GOAL_MESSAGES = {
 
