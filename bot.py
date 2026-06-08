@@ -9,10 +9,10 @@ from goal_messages import GOAL_MESSAGES
 
 load_dotenv()
 
-AP_SERVER = os.getenv("AP_SERVER", "ws://67.165.19.178:38281")
-AP_SLOT_NAME = os.getenv("AP_SLOT_NAME", "The BIG GUY")
+AP_SERVER = os.getenv("AP_SERVER", "ws://PUT IP AND PORT HERE")
+AP_SLOT_NAME = os.getenv("AP_SLOT_NAME", "PUT SLOT NAME HERE")
 AP_PASSWORD = os.getenv("AP_PASSWORD", "")
-DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "https://discord.com/api/webhooks/1511731633802444831/5WiMvPHPDnUw7iHP26mtipsJQgd_vMJlUrx7E-4ubtBuDAHkIg0fgnBqsYwGtTd__LvR")
+DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "PUT WEBHOOK ADDRESS HERE")
 
 item_id_to_name = {}
 location_id_to_name = {}
