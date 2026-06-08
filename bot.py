@@ -9,10 +9,10 @@ from goal_messages import GOAL_MESSAGES
 
 load_dotenv()
 
-AP_SERVER = os.getenv("AP_SERVER", "")
-AP_SLOT_NAME = os.getenv("AP_SLOT_NAME", "")
+AP_SERVER = os.getenv("AP_SERVER", "####")
+AP_SLOT_NAME = os.getenv("AP_SLOT_NAME", "####")
 AP_PASSWORD = os.getenv("AP_PASSWORD", "")
-DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "")
+DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "####")
 
 item_id_to_name = {}
 location_id_to_name = {}
